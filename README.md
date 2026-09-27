@@ -1,4 +1,4 @@
-# Naturaleza Linda 🌿
+# Naturaleza Linda 
 
 Este proyecto es una página web sobre la naturaleza, realizada como práctica para aplicar lo aprendido en HTML y CSS.
 
@@ -15,7 +15,3 @@ La página busca mostrar la importancia de valorar y cuidar la naturaleza por me
 ## Tecnologías
 
 Para realizar la página utilicé HTML y CSS.
-
-## Autora
-
-Sayi Lorena Ramírez Álvarez
