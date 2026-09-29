@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sitio web educativo sobre el valor y la conservación de la naturaleza.">
+    <meta name="description" content="Página sobre la naturaleza y su importancia.">
 
     <title>Naturaleza Linda</title>
 
@@ -12,144 +12,157 @@
 </head>
 
 <body>
-<header>
-    <div class="logo">
-        <span>🌿</span>
-        <h1>Naturaleza Linda</h1>
-    </div>
 
-    <nav aria-label="Navegación principal">
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Explora</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
-</header>
-<main>
-
-    <section class="tarjetas" aria-labelledby="titulo-naturaleza">
-
-        <h2 id="titulo-naturaleza">Descubre la naturaleza</h2>
-
-        <div class="contenedor-tarjetas">
-
-            <article class="tarjeta">
-
-                <img src="img/bosque.jpg"
-                    alt="Bosque verde rodeado de abundante vegetación">
-
-                <h3>El valor de nuestros bosques</h3>
-
-                <p>
-                    Los bosques son espacios llenos de vida que ayudan a conservar
-                    la biodiversidad y hacen parte del equilibrio de nuestro planeta.
-                </p>
-
-            </article>
-
-
-            <article class="tarjeta">
-
-            <video autoplay loop muted playsinline>
-    <source src="video/naturaleza.mp4" type="video/mp4">
-    Tu navegador no puede reproducir este video.
-</video>
-
-                <h3>Conectados con la naturaleza</h3>
-
-                <p>
-                    La naturaleza nos brinda paisajes, recursos y una gran diversidad
-                    de vida. Conocerla nos permite valorar su importancia y comprender
-                    por qué debemos cuidarla.
-                </p>
-
-            </article>
-
+    <header>
+        <div class="logo">
+            <span>🌿</span>
+            <h1>Naturaleza Linda</h1>
         </div>
 
-    </section>
-    <section class="contacto">
-    <h2>Conecta con la naturaleza</h2>
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#explora">Explora</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <p>
-        Comparte un mensaje sobre lo que más valoras de la naturaleza
-        o una idea para contribuir a su cuidado.
-    </p>
+    <main id="inicio">
 
-    <form>
-        <div class="campo">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-        </div>
+        <section class="tarjetas" id="explora">
 
-        <div class="campo">
-            <label for="correo">Correo electrónico:</label>
-            <input type="email" id="correo" name="correo" required>
-        </div>
+            <h2>Descubre la naturaleza</h2>
 
-        <div class="campo">
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-        </div>
+            <div class="contenedor-tarjetas">
 
-        <button type="submit">Enviar mensaje</button>
-    </form>
-</section>
-<section class="reforestacion">
-    <h2>Jornada de reforestación</h2>
+                <article class="tarjeta">
 
-    <p>
-        Ejemplo ilustrativo de una jornada de reforestación en diferentes
-        zonas naturales.
-    </p>
+                    <img src="img/bosque.jpg"
+                        alt="Bosque verde rodeado de abundante vegetación">
 
-    <table>
-        <thead>
-            <tr>
-                <th>Zona</th>
-                <th>Jornada 1</th>
-                <th>Jornada 2</th>
-                <th>Total</th>
-            </tr>
-        </thead>
+                    <h3>El valor de nuestros bosques</h3>
 
-        <tbody>
-            <tr>
-                <td>Zona del bosque</td>
-                <td>25</td>
-                <td>20</td>
-                <td>45</td>
-            </tr>
+                    <p>
+                        Los bosques son espacios llenos de vida que ayudan a conservar
+                        la biodiversidad y hacen parte del equilibrio de nuestro planeta.
+                    </p>
 
-            <tr>
-                <td>Zona del río</td>
-                <td>15</td>
-                <td>20</td>
-                <td>35</td>
-            </tr>
+                </article>
 
-            <tr>
-                <td colspan="3"><strong>Total de árboles sembrados</strong></td>
-                <td><strong>80</strong></td>
-            </tr>
-        </tbody>
-    </table>
-</section>
-</main>
-<footer>
-    <p>
-        Naturaleza Linda 🌿 | Conocer, valorar y proteger nuestro planeta.
-    </p>
+                <article class="tarjeta">
 
-    <p>
-        <a href="mailto:contacto@naturalezalinda.com">Contáctanos</a>
-    </p>
+                    <video autoplay loop muted playsinline>
+                        <source src="video/naturaleza.mp4" type="video/mp4">
+                        Tu navegador no puede reproducir este video.
+                    </video>
 
-    <p>
-        <small>&copy; 2026 Naturaleza linda</small>
-    </p>
-</footer>
+                    <h3>La naturaleza en movimiento</h3>
+
+                    <p>
+                        En este video podemos observar diferentes paisajes naturales
+                        y apreciar un poco más todo lo que encontramos en nuestro entorno.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="contacto" id="contacto">
+
+            <h2>¿Qué piensas sobre la naturaleza?</h2>
+
+            <p>
+                Escribe qué es lo que más te gusta de la naturaleza o alguna
+                idea que tengas para ayudar a cuidarla.
+            </p>
+
+            <form>
+
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="campo">
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+
+                <div class="campo">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+
+                <button type="submit">Enviar mensaje</button>
+
+            </form>
+
+        </section>
+
+        <section class="reforestacion">
+
+            <h2>Jornada de reforestación</h2>
+
+            <p>
+                Esta tabla muestra un ejemplo de la cantidad de árboles sembrados
+                durante dos jornadas de reforestación.
+            </p>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Zona</th>
+                        <th>Jornada 1</th>
+                        <th>Jornada 2</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Zona del bosque</td>
+                        <td>25</td>
+                        <td>20</td>
+                        <td>45</td>
+                    </tr>
+
+                    <tr>
+                        <td>Zona del río</td>
+                        <td>15</td>
+                        <td>20</td>
+                        <td>35</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="3">
+                            <strong>Total de árboles sembrados</strong>
+                        </td>
+                        <td>
+                            <strong>80</strong>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Naturaleza Linda 🌿</p>
+
+        <p>
+            <small>&copy; 2026 - Página realizada para práctica de HTML y CSS</small>
+        </p>
+    </footer>
+
 </body>
 
 </html>
